@@ -2,6 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = 'PSReader'
   spec.version      = '3.2.2'
+
   spec.summary      = 'PSReader SDK'
   spec.homepage     = 'https://www.pagesuite.com'
 
@@ -9,6 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = 'MIT'
 
   spec.platform     = :ios
+  
   spec.source       = { :http => 'https://pagesuite-builds.s3-eu-west-1.amazonaws.com/psreader/sdk/ios/3.2.2/PSReader.xcframework.zip' }
  
   spec.ios.deployment_target	= '10.0'

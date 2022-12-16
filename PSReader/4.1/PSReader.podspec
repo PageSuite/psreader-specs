@@ -13,9 +13,9 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :http => 'https://pagesuite-builds.s3-eu-west-1.amazonaws.com/psreader/sdk/ios/4.1/PSReader.xcframework.zip' }
  
-  spec.ios.deployment_target	= '10.0'
+  spec.ios.deployment_target	= '11.0'
   spec.ios.vendored_frameworks	= 'PSReader.xcframework'
 
-  spec.dependency 'ZIPFoundation', '~> 0.9.11'
+  spec.dependency 'ZIPFoundation'
 
 end
